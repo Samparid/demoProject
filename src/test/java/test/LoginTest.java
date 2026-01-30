@@ -1,10 +1,13 @@
 package test;
 
 import base.BaseTest;
+import listerners.ExtentTestListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.HomePage;
 import page.Login;
 
+@Listeners(ExtentTestListener.class)
 public class LoginTest extends BaseTest {
 
     @Test

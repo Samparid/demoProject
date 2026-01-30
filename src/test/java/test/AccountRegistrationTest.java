@@ -1,12 +1,15 @@
 package test;
 
 import base.BaseTest;
+import listerners.ExtentTestListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.AccountRegistrationPage;
 import page.HomePage;
 
 import static utilities.Utility.generateEmail;
 
+@Listeners(ExtentTestListener.class)
 public class AccountRegistrationTest extends BaseTest {
 
     @Test
