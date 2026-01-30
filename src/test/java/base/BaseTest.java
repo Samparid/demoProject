@@ -11,7 +11,7 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
         driver = DriverFactory.initDriver();
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get("https://naveenautomationlabs.com/opencart/index.php?route=common/home");
         driver.manage().window().maximize();
     }
 

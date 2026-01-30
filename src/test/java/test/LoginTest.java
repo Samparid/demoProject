@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
         System.out.println(driver);
         home.goToLoginPage();
         login.enterEmail("samrat.keshri.24@gmail.com");
-        login.enterPassword("Welcome@24");
+        login.enterPassword("SilentKiller@12345");
         login.submit();
 
     }
